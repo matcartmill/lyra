@@ -141,3 +141,7 @@ secrets:
 The `property_name` attribute of the `item` only pertains to how the item is rendered in the template. Specifically, it is the name of the property that will be used to hold the secret value. You can give the `property_name` attribute any value you would like.
 
 **Remember**: try to prefix all of your secrets with your environment in  Secrets Manager, and use the `environment` attribute of the `Lyrafile` / CLI param to automatically append the `environment` to every secret fetch.
+
+## Thank Yous
+
+- @bsarrazin: Provided early feedback that helped shaped the code, as well as used some of his `sekrit` gem ideas that provided a solid foundation to build off of.
