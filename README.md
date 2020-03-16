@@ -1,5 +1,7 @@
 # Lyra
 
+![Unit Test](https://github.com/HelloMustard/lyra/workflows/Unit%20Test/badge.svg?branch=master)
+
 Lyra is a Ruby gem that fetches your application's passwords from AWS Secrets Manager and builds a file containing them using a `Templatefile` as the guide. This results in a simple and platform-agnostic approach to rendering your application password in to a compilable file.
 
 ## Installation
